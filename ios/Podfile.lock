@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - qiscus_meet (0.0.2):
+    - Flutter
+    - QiscusMeetFramework (= 3.2.0)
+  - QiscusMeetFramework (3.2.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - qiscus_meet (from `.symlinks/plugins/qiscus_meet/ios`)
+
+SPEC REPOS:
+  trunk:
+    - QiscusMeetFramework
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  qiscus_meet:
+    :path: ".symlinks/plugins/qiscus_meet/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  qiscus_meet: 703b5a39ad2b25dd92ccd8710d1130501af14f8b
+  QiscusMeetFramework: abfea750d0934d7183ec0a99fee2981562dfc265
+
+PODFILE CHECKSUM: 992dbf0dd3c79049eb1aaef13d105142627efc07
+
+COCOAPODS: 1.10.1

@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - qiscus_meet (0.0.2):
+  - qiscus_meet (0.0.3-beta.1):
     - Flutter
     - QiscusMeetFramework (= 3.2.0)
   - QiscusMeetFramework (3.2.0)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  qiscus_meet: 703b5a39ad2b25dd92ccd8710d1130501af14f8b
+  qiscus_meet: b2a43f04d6dfade25c0c33785b11e21b525ae006
   QiscusMeetFramework: abfea750d0934d7183ec0a99fee2981562dfc265
 
 PODFILE CHECKSUM: 992dbf0dd3c79049eb1aaef13d105142627efc07

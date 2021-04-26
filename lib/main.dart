@@ -30,6 +30,8 @@ class _MyAppState extends State<MyApp> {
         onConferenceTerminated: _onConferenceTerminated,
         onPictureInPictureWillEnter: _onPictureInPictureWillEnter,
         onPictureInPictureTerminated: _onPictureInPictureTerminated,
+        onParticipantJoined: _onParticipantJoined,
+        onParticipantLeft: _onParticipantLeft,
         onError: _onError));
   }
 
@@ -135,7 +137,7 @@ class _MyAppState extends State<MyApp> {
         nameText.text,
         "https://d1.awsstatic.com/events/aws-hosted-events/2020/APAC/case-studies/case-study-logo-qiscus.5433a4b9da2693dd49766a971aac887ece8c6d18.png",
         "Qiscus Meet: ${roomText.text.toString()}",
-        false)
+        false,false)
         .build();
   }
 
@@ -171,6 +173,14 @@ class _MyAppState extends State<MyApp> {
   void _onPictureInPictureTerminated({message}) {
     debugPrint(
         "_onPictureInPictureTerminated broadcasted with message: $message");
+  }
+  void _onParticipantJoined({message}) {
+    debugPrint(
+        "Join broadcasted with message: $message");
+  }void _onParticipantLeft({message}) {
+    QiscusMeet.endCall();
+    debugPrint(
+        "Left broadcasted with message: $message");
   }
 
   _onError(error) {

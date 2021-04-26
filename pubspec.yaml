@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  qiscus_meet: ^0.0.3-beta.1
+  qiscus_meet: ^0.0.3-beta.4
   http: ^0.12.2
 
   # The following adds the Cupertino Icons font to your application.

@@ -115,7 +115,7 @@ packages:
       name: qiscus_meet
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.3-beta.1"
+    version: "0.0.3-beta.4"
   sky_engine:
     dependency: transitive
     description: flutter
